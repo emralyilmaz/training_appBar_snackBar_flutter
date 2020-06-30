@@ -41,7 +41,38 @@ class _TemelState extends State<Temel> {
         ],
       ),
       body: Center(
-        child: Text('body'),
+        //child: Icon(
+        //  Icons.favorite,
+        //  color: Colors.red,
+        //  size: 100,
+        // child: FlatButton(
+        //     onPressed: () {
+        // print("Flat Button Tıklandı.");
+        // },
+        // child: Text("Tıkla"),
+        // color: Colors.redAccent,
+        // textColor: Colors.limeAccent,
+        // splashColor: Colors.black12,
+
+        // child: RaisedButton.icon(
+        //  onPressed: () {
+        //    print("Flat Button Tıklandı.");
+        //  },
+        //  icon: Icon(Icons.mail),
+        //  label: Text("Mail Gönder"),
+        //  color: Colors.amber,
+        //  onLongPress: () {
+        //    print("Uzun Tıklandı");
+        //  },
+        //),
+
+        child: IconButton(
+          icon: Icon(Icons.alarm),
+          onPressed: () {
+            print("Uzun Tıklandı");
+          },
+          iconSize: 100,
+        ),
       ),
     );
   }
